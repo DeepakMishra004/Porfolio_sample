@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(3, 17, 29);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(5, 28, 48);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(128, 126, 241);
+        font-size: 17px;
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(184, 207, 229);
+        height: 0.09rem;
+        margin: 20px 0 10px;
+      }
+      .text-gray {
+        color: gray;
+        font-size: small;
+      }
+
+      .left {
+        font-size: 30px;
+      }
+      .first-section {
+        display: flex;
+        justify-content: space-around;
+        margin: 60px 0;
+        align-items: center;
+      }
+      .first-section > div {
+        width: 30%;
+      }
+      .secondsection {
+        max-width: 80dvw;
+        margin: auto;
+        height: 500px;
+      }
+      .secondsection .box {
+        background-color: aliceblue;
+        width: 80vw;
+        height: 2px;
+        margin: 36px 0;
+        display: flex;
+      }
+
+      .left-section {
+        font-size: 2rem;
+      }
+      .left-section .btn {
+        padding: 12px;
+        background-color: rgb(3, 17, 29);
+        color: white;
+        border: 2px solid white;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+      .right-section img {
+        width: 80%;
+      }
+      .purpul {
+        color: blueviolet;
+      }
+      #element {
+        color: blueviolet;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .img-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 65px;
+        width: 150px;
+      }
+      .vertical-desc {
+        color: cadetblue;
+        font-size: 9px;
+        position: relative;
+        top: 80px;
+        width: 150px;
+        text-transform: capitalize;
+      }
+      .footer {
+        display: flex;
+        margin: 23px 120px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      footer {
+        
+        background-color: rgb(5, 28, 48);
+      }
+      .footer > div {
+        width: 290px;
+      }
+      footer .text-center{
+        text-align: center;
+        padding: 12px;
+        font-size: small;
+        color: rgb(90, 110, 168);
+
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Deepak's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home </a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first-section">
+        <div class="left-section">
+          Hi, My name <span class="purpul"> Deepak </span>
+          <div>and I am a passionate</div>
+          <div>web developer</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Rusume</button>
+            <button class="btn">Git Hub</button>
+          </div>
+        </div>
+        <div class="right-section">
+          <img src="img/app-development.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="img/app-development.png" alt="" class="img-top" />
+            <div class="vertical-title">HTML Developer (2020-2024)</div>
+            <div class="vertical-desc">
+              [Type the abstract of the document here. The abstract is typically
+              a short summary of the contents of the document. Type the abstract
+              of the document here. The abstract is typically a short summary of
+              the contents of the document.]
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/app-development.png" alt="" class="img-top" />
+            <div class="vertical-title">HTML Developer (2020-2024)</div>
+            <div class="vertical-desc">
+              [Type the abstract of the document here. The abstract is typically
+              a short summary of the contents of the document. Type the abstract
+              of the document here. The abstract is typically a short summary of
+              the contents of the document.]
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="img/app-development.png" alt="" class="img-top" />
+            <div class="vertical-title">HTML Developer (2020-2024)</div>
+            <div class="vertical-desc">
+              [Type the abstract of the document here. The abstract is typically
+              a short summary of the contents of the document. Type the abstract
+              of the document here. The abstract is typically a short summary of
+              the contents of the document.]
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/app-development.png" alt="" class="img-top" />
+            <div class="vertical-title">Node.js Developer (2020-2024)</div>
+            <div class="vertical-desc">
+              [Type the abstract of the document here. The abstract is typically
+              a short summary of the contents of the document. Type the abstract
+              of the document here. The abstract is typically a short summary of
+              the contents of the document.]
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first">
+          <h1>Deepak's Portfolio</h1>
+        </div>
+        <div class="second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center">Copyright &#169; WWWW.deepakfolio.com || All right resevred</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Microsoft expert", "Video editer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
