@@ -22,4 +22,6 @@ Skills
 >React
 >MongoDB
 >Git
+>>>Application Development
+>>>Web development
 
